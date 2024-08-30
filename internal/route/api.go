@@ -1,7 +1,7 @@
 package route
 
 import (
-	handlerShop "codebase-app/internal/module/shop/handler/rest"
+	handler "codebase-app/internal/module/shop/handler/rest"
 	"codebase-app/pkg/response"
 
 	"github.com/gofiber/fiber/v2"
@@ -9,13 +9,13 @@ import (
 )
 
 func SetupRoutes(app *fiber.App) {
+
 	var (
-		api = app.Group("/products")
+		api = app.Group("/shops")
 	)
 
-	handlerShop.NewShopHandler().Register(api)
+	handler.NewShopHandler().Register(api)
 
-	// fallback route
 	app.Use(func(c *fiber.Ctx) error {
 		var (
 			method = c.Method()                       // get the request method

@@ -4,6 +4,7 @@ go 1.22.0
 
 require (
 	github.com/brianvoe/gofakeit/v7 v7.0.2
+	github.com/cloudinary/cloudinary-go/v2 v2.9.0
 	github.com/coreos/go-oidc v2.2.1+incompatible
 	github.com/go-playground/validator/v10 v10.19.0
 	github.com/gofiber/fiber/v2 v2.52.2
@@ -21,7 +22,9 @@ require (
 
 require (
 	cloud.google.com/go/compute/metadata v0.5.0 // indirect
+	github.com/creasty/defaults v1.7.0 // indirect
 	github.com/google/go-cmp v0.6.0 // indirect
+	github.com/gorilla/schema v1.4.1 // indirect
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
 	github.com/kr/pretty v0.3.1 // indirect
 	github.com/pquerna/cachecontrol v0.2.0 // indirect
@@ -47,6 +50,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/internal/s3shared v1.17.7 // indirect
 	github.com/aws/aws-sdk-go-v2/service/s3 v1.54.3
 	github.com/aws/smithy-go v1.20.2 // indirect
+	github.com/cloudinary/cloudinary-go v1.7.0
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/gabriel-vasile/mimetype v1.4.3 // indirect
 	github.com/go-playground/locales v0.14.1 // indirect
